@@ -1,0 +1,17 @@
+# check if the string contains a string
+jQuery solution:
+a = 'Hello world!'
+a.includes('world') => true
+a.includes('Universe') => false
+a.includes('World') => false
+
+# check if a file input contains a file
+Pure solution:
+file_input = document.getElementById('file-input-id')
+file_input.value => 'C://file_name.extension'
+
+jQuery:
+file_input = $('#file-input-id');
+file_input.val() => 'C://file_name.extension'
+
+
